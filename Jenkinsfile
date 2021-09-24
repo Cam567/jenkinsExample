@@ -12,7 +12,7 @@ pipeline {
             steps {
                 sh "java -version"
                 sh "mvn -version"
-                echo "Operación a ejecutar: ${params.OPERATION}"
+                echo "Operación a ejecutar por Github: ${params.OPERATION}"
             }
         }
 
